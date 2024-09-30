@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Project = ({ title, imgSrc, liveLink, githubLink }) => {
+const Project = ({ title, link, github, img }) => {
   return (
     <div className="project">
-      <img src={imgSrc} alt={title} />
+      <img src={img} alt={title} />
       <h3>{title}</h3>
-      <a href={liveLink} target="_blank">Deployed App</a>
-      <a href={githubLink} target="_blank">GitHub Repo</a>
+      <a href={link} target="_blank">Deployed App</a>
+      <a href={github} target="_blank">GitHub Repo</a>
     </div>
   );
 };
