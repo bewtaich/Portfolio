@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 
-const Project = ({ title, link, github, img }) => {
+const Project = (title, link, github, img) => {
   return (
     <div className="project">
       <img src={img} alt={title} />
