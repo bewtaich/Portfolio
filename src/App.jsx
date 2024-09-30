@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
+      <p>Heyo</p>
       <Header />
       <main>
         <Outlet />
